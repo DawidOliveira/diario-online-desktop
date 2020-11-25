@@ -50,21 +50,6 @@ mixin _$HomeController on _HomeControllerBase, Store {
     });
   }
 
-  final _$notesAtom = Atom(name: '_HomeControllerBase.notes');
-
-  @override
-  ObservableList<dynamic> get notes {
-    _$notesAtom.reportRead();
-    return super.notes;
-  }
-
-  @override
-  set notes(ObservableList<dynamic> value) {
-    _$notesAtom.reportWrite(value, super.notes, () {
-      super.notes = value;
-    });
-  }
-
   final _$getNotesAsyncAction = AsyncAction('_HomeControllerBase.getNotes');
 
   @override
@@ -89,8 +74,7 @@ mixin _$HomeController on _HomeControllerBase, Store {
   @override
   String toString() {
     return '''
-socket: ${socket},
-notes: ${notes}
+socket: ${socket}
     ''';
   }
 }
