@@ -18,3 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 # OBS.:
 * Não esqueça de executar na raiz do projeto: flutter pub get
 * Para facilitar, execute o instalador: installdiario.exe (logo após iniciar o backend deste projeto)
+
+# Desenvolvido por:
+* Dáwid Silva Oliveira
+* Alex Ferreira da Silva
