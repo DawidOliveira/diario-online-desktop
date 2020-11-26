@@ -17,4 +17,4 @@ samples, guidance on mobile development, and a full API reference.
 
 # OBS.:
 * Não esqueça de executar na raiz do projeto: flutter pub get
-* Para facilitar, execute o atalho: desktop.exe (logo após de iniciar o backend deste projeto)
+* Para facilitar, execute o instalador: installdiario.exe (logo após de iniciar o backend deste projeto)
